@@ -9,7 +9,7 @@ import urequests
 
 #Endpoint of your influxdb, currently plaintext and unauthenticated
 influx_url = "http://192.168.10.24:8086/write?db=george"  
-ssid = 'SSID'  #Wireless SSIS
+ssid = 'SSID'  #Wireless SSID
 password = 'SSIDPASSWORD' #Wireless SSID Password
 
 #Turn on the onboard LED 
