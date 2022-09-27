@@ -5,12 +5,12 @@ The pico will send data to an MQTT instance.  Telegraf can be configured to pull
 
 To get started, you will need to save hall_sensor.py as main.py on the pico w.   You will also need a file named secrets.py to hold your configuration data.  secrets.py should contain the following:
 
-mqtt_server = ''  #IP or url to your mqtt server
-mqtt_user = ''
-mqtt_password = ''
-client_id = 'wheel1'  #whatever you want to name the microcontroller
-ssid = ''  #Wireless SSIS
-ssid_pass = '' #Wireless SSID Password
+mqtt_server = ''  #IP or url to your mqtt server  <br />
+mqtt_user = ''<br />
+mqtt_password = ''<br />
+client_id = 'wheel1'  #whatever you want to name the microcontroller<br />
+ssid = ''  #Wireless SSIS<br />
+ssid_pass = '' #Wireless SSID Password<br />
 
 Once the data is feeding into influxdb you should see something similar to the dashboard below.
 
