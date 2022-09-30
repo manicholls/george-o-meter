@@ -104,7 +104,7 @@ while True:
         #reset counter on successful publish
         counter = 0
     except:
-        print("error")
+        reconnect()
     sleep(0.1)    
         
 
